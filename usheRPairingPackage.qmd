@@ -1,0 +1,38 @@
+---
+title: "usheRPairingPackage"
+author: "Nicola Burns"
+format: html
+editor: visual
+---
+
+# Description 
+
+```{r}
+# commented out once ran to ensure it doesn't re-run and set back to default description.
+# usethis::use_description()
+```
+
+# License
+
+```{r}
+usethis::use_mit_license()
+```
+
+# R Directory
+
+```{r}
+usethis::use_r("Roster.R")
+usethis::use_r("Pairing.R")
+```
+
+# create Help files
+
+```{r}
+devtools::document()
+```
+
+# Install package
+
+```{r}
+devtools::install()
+```

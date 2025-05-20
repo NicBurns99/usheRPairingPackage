@@ -1,0 +1,11 @@
+Package: usheRPairingAlgorithm
+Title: Functions For Pairing Students Together During Live Sessions, With Different Functionalities
+Version: 0.0.0.9000
+Authors@R: 
+    person("Nicola", "Burns", , "N.E.Burns@ed.ac.uk", role = c("aut", "cre"),
+           comment = c(ORCID = "0009-0007-7777-7466"))
+Description: This package pairs present students together for live sessions and includes functionality to choose group sizes, what to do with odd students, and ability to re-run the algorithm if needed.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.1
