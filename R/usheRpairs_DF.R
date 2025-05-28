@@ -1,10 +1,10 @@
 #' Convert pairings list to data frame
 #'
-#' Converts the output of create_pairs() into a data frame with the columns Week (integer), Group (integer), and Student_Name (Character)
+#' Converts the output of create_pairs() into a data frame with the columns Week (integer), Group (integer), and Pairs (Character)
 #'
 #' @param pairings A list object returned from create_pairs()
 #'
-#' @returns A data frame with the columns Week, Group, and Student_Names
+#' @returns A data frame with the columns Week, Group, and Pairs
 #' @export
 #'
 #' @examples
