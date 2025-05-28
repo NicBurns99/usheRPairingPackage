@@ -23,6 +23,7 @@ usethis::use_mit_license()
 ```{r}
 usethis::use_r("Roster.R")
 usethis::use_r("Pairing.R")
+usethis::use_r("usheRpairs_DF")
 ```
 
 # create Help files
